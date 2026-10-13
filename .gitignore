@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+
+# Generated Chroma vector stores (too large for GitHub)
+chroma/
+
+# Source archive is ~97 MB; GitHub warns above 50 MB and rejects above 100 MB.
+# Extracted filings in lab3/files/ are the files the scripts use.
+lab3/10Ks.zip
+
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

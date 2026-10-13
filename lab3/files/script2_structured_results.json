@@ -1,0 +1,336 @@
+[
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 29,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 30,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": [
+        "We aim to reduce 50% of our combined Scope 1, Scope 2 (market-based), and Scope 3 absolute emissions (compared to our 2019 base year) by 2030, and we plan to invest in nature-based and technology-based carbon removal solutions to neutralize our remaining emissions."
+      ]
+    },
+    "is_empty": false
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 31,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 52,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [
+        "material terms of our arrangements with them",
+        "supply shortages",
+        "price increases",
+        "quality issues",
+        "longer lead times",
+        "raw material and/or component availability",
+        "manufacturing capacity",
+        "labor shortages",
+        "industry allocations",
+        "logistics capacity",
+        "inflation",
+        "foreign currency exchange rates",
+        "tariffs",
+        "sanctions and export controls",
+        "trade disputes and barriers",
+        "forced labor concerns",
+        "sustainability sourcing requirements",
+        "geopolitical tensions",
+        "armed conflicts",
+        "natural disasters or pandemics",
+        "the effects of climate change (such as sea level rise, drought, flooding, heat waves, wildfires and resultant air quality effects and power shutdowns associated with wildfire prevention, and increased storm severity)",
+        "power and transmission availability",
+        "significant changes in the financial or business condition of our suppliers"
+      ],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": false
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 55,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 56,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [
+        "material climate-related risks that have materially impacted, or are reasonably likely to materially impact, the company's strategy, results of operations, or financial condition. Covers physical risks (extreme weather, wildfire, drought, flooding, sea-level rise affecting facilities, operations, or suppliers) and transition risks (new regulation, carbon pricing, shifting demand, stranded assets, reputational exposure), over both short-term (next 12 months) and long-term horizons."
+      ],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": [
+        "the company's processes for identifying, assessing, and managing material climate risks, and how those processes feed into its overall risk management system \u2014 transition plans, scenario analysis (e.g. against a 1.5\u00b0C or 2\u00b0C warming scenario), internal carbon pricing, adoption of a framework (TCFD, SBTi, GHG Protocol), or specific technology or operational changes."
+      ]
+    },
+    "is_empty": false
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 68,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 69,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 81,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 105,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "alphabet10K.pdf",
+    "chunk_index": 106,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 5,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 11,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 24,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 34,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 35,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [
+        "material climate-related risks that have materially impacted, or are reasonably likely to materially impact, the company's strategy, results of operations, or financial condition. Covers physical risks (extreme weather, wildfire, drought, flooding, sea-level rise affecting facilities, operations, or suppliers) and transition risks (new regulation, carbon pricing, shifting demand, stranded assets, reputational exposure), over both short-term (next 12 months) and long-term horizons."
+      ],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": [
+        "the company's processes for identifying, assessing, and managing material climate risks, and how those processes feed into its overall risk management system \u2014 transition plans, scenario analysis (e.g. against a 1.5\u00b0C or 2\u00b0C warming scenario), internal carbon pricing, adoption of a framework (TCFD, SBTi, GHG Protocol), or specific technology or operational changes."
+      ]
+    },
+    "is_empty": false
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 37,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 39,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 53,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  },
+  {
+    "file": "amazon10K.pdf",
+    "chunk_index": 126,
+    "status": "ok",
+    "attempts": 1,
+    "extraction": {
+      "climate_risks": [],
+      "emissions": [],
+      "targets_and_goals": [],
+      "governance": [],
+      "financials": [],
+      "mitigation": []
+    },
+    "is_empty": true
+  }
+]

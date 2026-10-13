@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "deepagents": "^1.14.2",
+    "langsmith": "^0.10.12"
+  }
+}

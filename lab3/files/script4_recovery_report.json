@@ -1,0 +1,331 @@
+{
+  "recovered": [
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 29,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "and effective manner across a variety of distribution channels; and\n\u2022\ncontent providers, primarily based on the quality of our advertiser base, our ability to help these partners generate revenues from advertising, and\nthe terms of our agreements with them.\n8.\nTable of Contents\nAlphabet Inc.\nFor additional information about competition, see Item 1A Risk Factors of this Annual Report on Form 10-K.\nOngoing Commitment to Sustainability\nOur environmental strat\negy has two key pillars, supported by our dedication to accessible information and technological innovation:\n\u2022\nOur products: We are empowering people with information about the environmental impacts of their choices.\n\u2022\nOur operations: We are working to drive sustainability and efficiency across our operations and value chain.\nThrough our products, we have an aspiration to help individuals, cities, and other partners collectively reduce one gigaton of their carbon equivalent\nemissions annually by 2030.\nIn 2021, we set an ambitious goal to reach net-zero emissions across all of our operations and value chain by 2030. To make progress toward this\neffort, we aim to reduce 50% of our combined Scope 1, Scope 2 (market-based), and Scope 3 absolute emissions (compared to our 2019 base year) by\n2030, and we plan to invest in nature-based and technology-based carbon removal solutions to neutralize our remaining emissions.",
+      "chunk_preview": "and effective manner across a variety of distribution channels; and\n\u2022\ncontent providers, primarily based on the quality of our advertiser base, our ability to help these partners generate revenues fro",
+      "recovered_extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": [
+          "reducing 50% of our combined Scope 1, Scope 2 (market-based), and Scope 3 absolute emissions (compared to our 2019 base year) by 2030"
+        ]
+      }
+    },
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 56,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "our systems. Some of our data centers are located in areas with a high risk of major earthquakes or other natural disasters. Our data centers are also\nsubject to break-ins, sabotage, and intentional acts of vandalism, and, in some cases, to potential disruptions resulting from problems experienced by\nfacility operators or disruptions as a result of geopolitical tensions and conflicts happening in the area. Some of our systems are not fully redundant, and\ndisaster recovery planning cannot account for all eventualities. The occurrence of a natural disaster or pandemic, closure of a facility, or other\nunanticipated problems affecting our data centers could result in lengthy interruptions in our service. In addition, our products and services are highly\ntechnical and complex and have contained in the past, and may contain in the future, errors or vulnerabilities, which could result in interruptions in or\nfailure of our services or systems. Any of these incidents could impede or prevent us from effectively offering products and providing services, which could\nharm our business, reputation, financial condition, and operating results.\nOur international operations expose us to additional risks that could harm our business, reputation, financial condition, and operating\nresults.\n14.\nTable of Contents\nAlphabet Inc.\nOur international operations are significant to our revenues and net income, and we plan to continue to grow internationally. International revenues",
+      "chunk_preview": "our systems. Some of our data centers are located in areas with a high risk of major earthquakes or other natural disasters. Our data centers are also\nsubject to break-ins, sabotage, and intentional a",
+      "recovered_extraction": {
+        "climate_risks": [
+          "major earthquakes",
+          "earthquakes",
+          "natural disasters",
+          "unanticipated problems affecting our data centers",
+          "closure of a facility",
+          "pandemic",
+          "political tensions and conflicts",
+          "facility operators",
+          "geopolitical tensions and conflicts",
+          "facility operators or disruptions",
+          "disruptions as a result of geopolitical tensions and conflicts",
+          "errors or vulnerabilities",
+          "unintended problems affecting our data centers",
+          "incidents",
+          "international operations",
+          "additional risks"
+        ],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      }
+    }
+  ],
+  "confirmed_empty": [
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 31,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "depend heavily on the development and improvement of new technologies by us and by the energy sector. As our business and industry continue to\nevolve, we expect our total GHG emissions to rise before dropping toward our absolute emissions reduction target.\nFor additional information about risks and uncertainties applicable to our work on sustainability and efficiency, see Item 1A Risk Factors of this\nAnnual Report on Form 10-K.\nCulture and Workforce\nWe are a company of curious, talented, and passionate people. We embrace collaboration and creativity, and encourage the iteration of ideas to\naddress complex challenges in technology and society.\nOur people are critical for our continued success, so we work hard to create an environment where employees can have fulfilling careers, and be\nhappy, healthy, and perform at a high level. We offer industry-leading benefits and programs to take care of the diverse needs of our employees and their\nfamilies, including opportunities for career growth and development, resources to support their financial health, and access to excellent healthcare\nchoices. Our competitive compensation programs help us to attract and retain key talent, and we will continue to invest in recruiting talented people to\ntechnical and non-technical roles, and rewarding them well. We provide a variety of high quality training and support to managers to build and strengthen",
+      "chunk_preview": "depend heavily on the development and improvement of new technologies by us and by the energy sector. As our business and industry continue to\nevolve, we expect our total GHG emissions to rise before "
+    },
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 55,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "affect our ability to sell our products or services and expose us to litigation or financial claims.\nInterruption to, interference with, or failure of our complex information technology and communications systems could hurt our ability to\neffectively provide our products and services, which could harm our reputation, financial condition, and operating results.\nThe availability of our products and services and fulfillment of our customer contracts depend on the continuing operation of our information\ntechnology and communications systems. Our systems are vulnerable to damage, interference, or interruption from modifications or upgrades, terrorist\nattacks, state-sponsored attacks, natural disasters or pandemics, geopolitical tensions or armed conflicts, export controls and sanctions, the effects of\nclimate change (such as sea level rise, drought, flooding, heat waves, wildfires and resultant air quality effects and power shutdowns associated with\nwildfire prevention, and increased storm severity), power and transmission availability challenges, utility outages, telecommunications failures, computer\nviruses, software bugs, cyber attacks, supply-chain attacks, computer denial of service attacks, phishing schemes, or other attempts to harm or access\nour systems. Some of our data centers are located in areas with a high risk of major earthquakes or other natural disasters. Our data centers are also",
+      "chunk_preview": "affect our ability to sell our products or services and expose us to litigation or financial claims.\nInterruption to, interference with, or failure of our complex information technology and communicat"
+    },
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 68,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "actual or perceived breach of our or our business partners\u2019 or service providers\u2019 security occurs, the market perception of the effectiveness of our security\nmeasures would be harmed, we could lose users and customers, our trade secrets or those of our business partners may be compromised, and we may\nbe exposed to significant legal and financial risks, including legal claims (which may include class-action litigation) and regulatory actions, fines, and\npenalties. Any of the foregoing consequences could harm our business, reputation, financial condition, and operating results.\nWhile we have dedicated significant resources to privacy and security incident response capabilities, including dedicated worldwide incident\nresponse teams, our response process, particularly during times of a natural disaster or pandemic, may not be adequate, may fail to accurately assess\nthe severity of an incident, may not be fast enough to prevent or limit harm, or may fail to sufficiently remediate an incident. As a result, we may suffer\nsignificant legal, reputational, or financial exposure, which could harm our business, financial condition, and operating results.\nFor additional information, see also our risk factor on privacy and data protection regulations under \u2018Risks Related to Laws, Regulations, and\nPolicies\u2019 below.\nOur ongoing investments in safety, security, and content review will likely continue to identify abuse of our platforms and misuse of user\ndata.",
+      "chunk_preview": "actual or perceived breach of our or our business partners\u2019 or service providers\u2019 security occurs, the market perception of the effectiveness of our security\nmeasures would be harmed, we could lose us"
+    },
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 69,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "Policies\u2019 below.\nOur ongoing investments in safety, security, and content review will likely continue to identify abuse of our platforms and misuse of user\ndata.\nIn addition to our efforts to prevent and mitigate cyber attacks, we are making significant investments in safety, security, and review efforts to\ncombat misuse of our services and unauthorized access to user data by third parties, including investigation and review of platform applications that\ncould access the information of users of our services. As a result of these efforts, we have in the past discovered, and may in the future discover,\nincidents of unnecessary access to or misuse of user data or other undesirable activity by third parties. However, we may not have discovered, and may\nin the future not discover, all such incidents or activity, whether as a result of our data limitations, including our lack of visibility over our encrypted\nservices, the scale of activity on our platform, or other factors, including factors outside of our control such as a natural disaster or pandemic, and we\nmay learn of such incidents or activity via third parties. Such incidents and activities may include the use of user data or our systems in a manner\ninconsistent with our terms, contracts or policies, the existence of false or undesirable user accounts, election interference, improper ad purchases,",
+      "chunk_preview": "Policies\u2019 below.\nOur ongoing investments in safety, security, and content review will likely continue to identify abuse of our platforms and misuse of user\ndata.\nIn addition to our efforts to prevent "
+    },
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 81,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under specific legislation\nregulating AI, as well as new applications of existing data protection, cybersecurity, privacy, intellectual property, and other laws.\nFurther, we are subject to evolving laws, regulations, policies, and international accords relating to matters beyond our core products and services,\nincluding environmental sustainability, climate change, human capital, and employment matters. In response, we have implemented robust programs,\nadopted reporting frameworks and principles, and announced a number of complex and ambitious goals and initiatives that may require considerable\ninvestments. We cannot guarantee that our goals and initiatives will be fully realized on the timelines we expect or at all, and projects that are completed\nas planned may not achieve the results we anticipate.\nWe are and may continue to be subject to claims, lawsuits, regulatory and government inquiries and investigations, enforcement actions,\nconsent orders, and other forms of regulatory scrutiny and legal liability, including competition matters, that could harm our business,\nreputation, financial condition, and operating results.\nWe are subject to claims, lawsuits, regulatory and government inquiries and investigations, other proceedings, and orders involving competition,",
+      "chunk_preview": "implementation of AI in our offerings and internal systems) could subject us to regulatory action and legal liability, including under specific legislation\nregulating AI, as well as new applications o"
+    },
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 105,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "management team. For instance, Sundar Pichai is critical to the overall management of Alphabet and its subsidiaries and plays an important role in the\ndevelopment of our technology, maintaining our culture, and setting our strategic direction.\nOur ability to compete effectively and our future success depend on our continuing to identify, hire, develop, motivate, and retain highly skilled\npersonnel for all areas of our organization. Competition in our industry for qualified employees is intense, and certain of our competitors have directly\ntargeted, and may continue to target, our employees. In addition, our compensation arrangements, such as our equity award programs, may not always\nbe successful in attracting new employees and retaining and motivating our existing employees. Immigration policy and regulatory changes may also\naffect our ability to hire, mobilize, or retain some of our global talent. All of our executive officers and key employees are at-will employees, and we do\nnot maintain any key-person life insurance policies.\nIn addition, we believe that our corporate culture fosters innovation, creativity, and teamwork. As our organization grows and evolves, we may need\nto adapt our corporate culture and work environments to ever-changing circumstances, such as during times of a natural disaster or pandemic, and these\nchanges could affect our ability to compete effectively or have an adverse effect on our corporate culture. Under our hybrid work models, we may",
+      "chunk_preview": "management team. For instance, Sundar Pichai is critical to the overall management of Alphabet and its subsidiaries and plays an important role in the\ndevelopment of our technology, maintaining our cu"
+    },
+    {
+      "file": "alphabet10K.pdf",
+      "chunk_index": 106,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "to adapt our corporate culture and work environments to ever-changing circumstances, such as during times of a natural disaster or pandemic, and these\nchanges could affect our ability to compete effectively or have an adverse effect on our corporate culture. Under our hybrid work models, we may\nexperience increased costs and/or disruption, in addition to potential effects on our ability to operate effectively and maintain our corporate culture.\nITEM 1B.\nUNRESOLVED STAFF COMMENTS\nNot applicable.\nITEM 1C.     CYBERSECURITY\nWe maintain a comprehensive process for identifying, assessing, and managing material risks from cybersecurity threats as part of our broader risk\nmanagement system and processes.\n For example, some risks include our software supply chain and other third-party dependencies, vulnerabilities in\nour products and services, theft of our intellectual property, and attempts to compromise our infrastructure. We obtain input, as appropriate, for our\ncybersecurity risk management program on the security industry and threat trends from multiple external experts and internal threat intelligence teams.\nTeams of dedicated privacy, safety, and security professionals oversee cybersecurity risk management and mitigation, incident prevention, detection,\nand remediation. These teams comprise professionals with deep cybersecurity expertise across multiple industries and are led by our Vice President of",
+      "chunk_preview": "to adapt our corporate culture and work environments to ever-changing circumstances, such as during times of a natural disaster or pandemic, and these\nchanges could affect our ability to compete effec"
+    },
+    {
+      "file": "amazon10K.pdf",
+      "chunk_index": 5,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "Certain Relationships and Related Transactions, and Director Independence\n72\nItem 14.\nPrincipal Accountant Fees and Services\n73\nPART IV\nItem 15.\nExhibits, Financial Statement Schedules\n74\nItem 16.\nForm 10-K Summary\n76\nSignatures\n77\n2\nTable of Contents\nAMAZON.COM, INC.\nPART I\nItem 1.\nBusiness\nThis Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking statements based on expectations,\nestimates, and projections as of the date of this filing. Actual results and outcomes may differ materially from those expressed in forward-looking statements. See\nItem 1A of Part I \u2014 \u201cRisk Factors.\u201d As used herein, \u201cAmazon.com,\u201d \u201cwe,\u201d \u201cour,\u201d and similar terms include Amazon.com, Inc. and its subsidiaries, unless the\ncontext indicates otherwise.\nGeneral\nWe seek to be Earth\u2019s most customer-centric company. We are guided by four principles: customer obsession rather than competitor focus, passion for\ninvention, commitment to operational excellence, and long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers,\nsellers, developers, enterprises, content creators, advertisers, and employees.\nWe have organized our operations into three segments: North America, International, and Amazon Web Services (\u201cAWS\u201d). These segments reflect the way the\nCompany evaluates its business performance and manages its operations. Information on our net sales is contained in Item 8 of Part II, \u201cFinancial Statements and",
+      "chunk_preview": "Certain Relationships and Related Transactions, and Director Independence\n72\nItem 14.\nPrincipal Accountant Fees and Services\n73\nPART IV\nItem 15.\nExhibits, Financial Statement Schedules\n74\nItem 16.\nFor"
+    },
+    {
+      "file": "amazon10K.pdf",
+      "chunk_index": 11,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "proprietary technology.\nSeasonality\nOur business is affected by seasonality, which historically has resulted in higher sales volume during our fourth quarter, which ends December 31.\nHuman Capital\nOur employees are critical to our mission of being Earth\u2019s most customer-centric company. As of December 31, 2024, we employed approximately 1,556,000 full-\ntime and part-time employees. Additionally, we use independent contractors and temporary personnel to supplement our workforce. Competition for qualified\npersonnel is intense, particularly for software engineers, computer scientists, and other technical staff, and constrained labor markets have increased competition for\npersonnel across other parts of our business.\nWe strive to be Earth\u2019s best employer. We rely on numerous and evolving initiatives to implement this objective and invent mechanisms for talent\ndevelopment, including competitive pay and benefits, flexible work arrangements, and skills training and educational programs such as Amazon Career Choice\n(education funding for eligible employees). Over 240,000 Amazon employees around the world have participated in Career Choice. We also continue to inspect and\nrefine the mechanisms we use to hire, develop, evaluate, and retain our employees. In addition, safety is integral to everything we do at Amazon and we continue to",
+      "chunk_preview": "proprietary technology.\nSeasonality\nOur business is affected by seasonality, which historically has resulted in higher sales volume during our fourth quarter, which ends December 31.\nHuman Capital\nOur"
+    },
+    {
+      "file": "amazon10K.pdf",
+      "chunk_index": 24,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "geopolitical events, security issues, or other factors negatively impacting China-based sellers and suppliers could adversely affect our operating results.\nThe Variability in Our Retail Business Places Increased Strain on Our Operations\nDemand for our products and services can fluctuate significantly for many reasons, including as a result of seasonality, promotions, product launches, or\nunforeseeable events, such as in response to global economic conditions such as recessionary fears or rising inflation, natural or human-caused disasters (including\npublic health crises) or extreme weather (including as a result of climate change), or geopolitical events. For example, we expect a disproportionate amount of our retail\nsales to occur during our fourth quarter. Our failure to stock or restock popular products in sufficient amounts such that we fail to meet customer demand could\nsignificantly affect our revenue and our future growth. When we overstock products, we may be required to take significant inventory markdowns or write-offs and\nincur commitment costs, which could materially reduce profitability. We regularly experience increases in our net shipping cost due to complimentary upgrades, split-\nshipments, and additional long-zone shipments necessary to ensure timely delivery for the holiday season. If too many customers access our websites within a short",
+      "chunk_preview": "geopolitical events, security issues, or other factors negatively impacting China-based sellers and suppliers could adversely affect our operating results.\nThe Variability in Our Retail Business Place"
+    },
+    {
+      "file": "amazon10K.pdf",
+      "chunk_index": 34,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "\u2022\nour ability to collect amounts owed to us when they become due;\n\u2022\nthe extent to which new and existing technologies, or industry trends, restrict online advertising or affect our ability to customize advertising or otherwise\ntailor our product and service offerings;\n\u2022\nthe extent to which use of our services is affected by spyware, viruses, phishing and other spam emails, denial of service attacks, data theft, computer\nintrusions, outages, and similar events;\n\u2022\nthe extent to which we fail to maintain our unique culture of innovation, customer obsession, and long-term thinking, which has been critical to our growth\nand success;\n\u2022\ndisruptions from natural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), geopolitical\nevents and security issues (including terrorist attacks, armed hostilities, and political conflicts, including those involving China), labor or trade disputes\n(including restrictive governmental actions impacting us, our customers, and our third-party sellers and suppliers in China or other foreign countries), tariff\npolicy changes, and similar events; and\n\u2022\npotential negative impacts of climate change, including: increased operating costs due to more frequent extreme weather events or climate-related changes,\nsuch as rising temperatures and water scarcity; increased investment requirements associated with the transition to a low-carbon economy; decreased",
+      "chunk_preview": "\u2022\nour ability to collect amounts owed to us when they become due;\n\u2022\nthe extent to which new and existing technologies, or industry trends, restrict online advertising or affect our ability to customiz"
+    },
+    {
+      "file": "amazon10K.pdf",
+      "chunk_index": 37,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "storage space or to optimize our fulfillment network or cause other unexpected costs and other harm to our business and reputation.\nWe rely on a limited number of shipping companies to deliver inventory to us and completed orders to our customers. An inability to negotiate acceptable\nterms with these companies or performance problems, staffing limitations, or other difficulties experienced by these companies or by our own transportation systems,\nincluding as a result of labor market constraints and related costs, could negatively impact our operating results and customer experience. In addition, our ability to\nreceive inbound inventory efficiently and ship completed orders to customers also may be negatively affected by natural or human-caused disasters (including public\nhealth crises) or extreme weather (including as a result of climate change), geopolitical events and security issues, labor or trade disputes, and similar events.\nWe Could Be Harmed by Data Loss or Other Security Incidents\nBecause we collect, process, store, and transmit large amounts of data, including confidential, classified, sensitive, proprietary, and business and personal\ninformation, failure to prevent, detect, or mitigate data loss, theft, misuse, unauthorized access, or other security incidents or vulnerabilities affecting our or our\nvendors\u2019 or customers\u2019 technology, products, and systems, could: expose us or our customers to a risk of loss, disclosure, or misuse of such information; adversely",
+      "chunk_preview": "storage space or to optimize our fulfillment network or cause other unexpected costs and other harm to our business and reputation.\nWe rely on a limited number of shipping companies to deliver invento"
+    },
+    {
+      "file": "amazon10K.pdf",
+      "chunk_index": 39,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "systems and processes designed to reduce the impact of a security incident at a third-party vendor or customer, such measures cannot provide absolute security and\nmay fail to operate as intended or be circumvented.\nWe Face Risks Related to System Interruption and Lack of Redundancy\nWe experience occasional system interruptions and delays that make our websites and services unavailable or slow to respond and prevent us from efficiently\naccepting or fulfilling orders or providing services to customers and third parties, which may reduce our net sales and the attractiveness of our products and\nservices. Steps we take to add software and hardware, upgrade our systems and network infrastructure, and improve the stability and efficiency of our systems may\nnot be sufficient to avoid system interruptions or delays that could adversely affect our operating results.\nOur computer and communications systems and operations in the past have been, or in the future could be, damaged or interrupted due to events such as\nnatural or human-caused disasters (including public health crises) or extreme weather (including as a result of climate change), geopolitical events and security issues\n(including terrorist attacks and armed hostilities), computer viruses, physical or electronic break-ins, operational failures (including from energy shortages), and",
+      "chunk_preview": "systems and processes designed to reduce the impact of a security incident at a third-party vendor or customer, such measures cannot provide absolute security and\nmay fail to operate as intended or be"
+    },
+    {
+      "file": "amazon10K.pdf",
+      "chunk_index": 53,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "grant larger stock awards than we have historically, which could hurt our operating results or reduce the percentage ownership of our existing stockholders, or both.\nLegal and Regulatory Risks\nGovernment Regulation Is Evolving and Unfavorable Changes Could Harm Our Business\nWe are subject to general business regulations and laws, as well as regulations and laws specifically governing the internet, physical, e-commerce, and\nomnichannel retail, digital content, web services, electronic devices, advertising, artificial intelligence technologies and services, satellite communications services,\nhealthcare, and other products and services that we offer or sell. These regulations and laws cover taxation, privacy, data use, data protection, data security, data\nlocalization, network security, consumer protection, pricing, content, copyrights, distribution, transportation, communications, electronic device certification,\nelectronic waste, energy consumption, environmental and climate-related regulation, electronic contracts\n14\nTable of Contents\nand other communications, competition, employment, trade and protectionist measures, web services, the provision of online payment services, registration,\nlicensing, and information reporting requirements, unencumbered internet access to our services or access to our facilities, the design and operation of websites,",
+      "chunk_preview": "grant larger stock awards than we have historically, which could hurt our operating results or reduce the percentage ownership of our existing stockholders, or both.\nLegal and Regulatory Risks\nGovernm"
+    },
+    {
+      "file": "amazon10K.pdf",
+      "chunk_index": 126,
+      "keyword_hit": true,
+      "llm_found_something": false,
+      "item_count": 0,
+      "extraction": {
+        "climate_risks": [],
+        "emissions": [],
+        "targets_and_goals": [],
+        "governance": [],
+        "financials": [],
+        "mitigation": []
+      },
+      "chunk_text": "benefit plan stock\n113\n \n2\n \n\u2014 \n19,629\n \n\u2014 \n\u2014 \n19,631\n \nCommon stock repurchased\n(\n46\n)\n\u2014 \n(\n6,000\n)\n\u2014 \n\u2014 \n\u2014 \n(\n6,000\n)\nBalance as of December 31, 2022\n10,242\n \n108\n \n(\n7,837\n)\n75,066\n \n(\n4,487\n)\n83,193\n \n146,043\n \nNet income\n\u2014 \n\u2014 \n\u2014 \n\u2014 \n\u2014 \n30,425\n \n30,425\n \nOther comprehensive income (loss)\n\u2014 \n\u2014 \n\u2014 \n\u2014 \n1,447\n \n\u2014 \n1,447\n \nStock-based compensation and issuance of employee\nbenefit plan stock\n141\n \n1\n \n\u2014 \n23,959\n \n\u2014 \n\u2014 \n23,960\n \nBalance as of December 31, 2023\n10,383\n \n109\n \n(\n7,837\n)\n99,025\n \n(\n3,040\n)\n113,618\n \n201,875\n \nNet income\n\u2014 \n\u2014 \n\u2014 \n\u2014 \n\u2014 \n59,248\n \n59,248\n \nOther comprehensive income (loss)\n\u2014 \n\u2014 \n\u2014 \n\u2014 \n3,006\n \n\u2014 \n3,006\n \nStock-based compensation and issuance of employee\nbenefit plan stock\n210\n \n2\n \n\u2014 \n21,839\n \n\u2014 \n\u2014 \n21,841\n \nBalance as of December 31, 2024\n10,593\n \n$\n111\n \n$\n(\n7,837\n)\n$\n120,864\n \n$\n(\n34\n)\n$\n172,866\n \n$\n285,970\n \nSee accompanying notes to consolidated financial statements.\n40\nTable of Contents\nAMAZON.COM, INC.\nNOTES TO CONSOLIDATED FINANCIAL STATEMENTS\nNote 1 \u2014 \nDESCRIPTION OF BUSINESS, ACCOUNTING POLICIES, AND SUPPLEMENTAL DISCLOSURES\nDescription of Business\nWe seek to be Earth\u2019s most customer-centric company. In each of our segments, we serve our primary customer sets, consisting of consumers, sellers,\ndevelopers, enterprises, content creators, advertisers, and employees. We serve consumers through our online and physical stores and focus on selection, price, and",
+      "chunk_preview": "benefit plan stock\n113\n \n2\n \n\u2014 \n19,629\n \n\u2014 \n\u2014 \n19,631\n \nCommon stock repurchased\n(\n46\n)\n\u2014 \n(\n6,000\n)\n\u2014 \n\u2014 \n\u2014 \n(\n6,000\n)\nBalance as of December 31, 2022\n10,242\n \n108\n \n(\n7,837\n)\n75,066\n \n(\n4,487\n)\n83,1"
+    }
+  ],
+  "failed": []
+}
