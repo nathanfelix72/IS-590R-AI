@@ -1,4 +1,70 @@
-match is incidental.
+"""
+Lab 4 Extension — Script 5: Which findings are actually worth citing?
+
+Scripts 3 and 4 say where a disclosure showed up: on the first validated
+pass, or only after the keyword recheck. They do not say which of those
+chunks is strong evidence and which is a thin or generic mention. This
+script scores each detected chunk, plus the keyword hits both passes
+called empty, and ranks the real findings.
+
+The score is a subjective quality judgment. It is not calibrated
+confidence and it is not ground truth. A keyword match is only context
+for the judge.
+
+Run script3KeywordGap.py and script4HybridRecovery.py first.
+"""
+import json
+from pathlib import Path
+
+from docAnalyzerCommon import PDF_DIR, matched_keywords
+from langchain_ollama import ChatOllama
+from pydantic import BaseModel, Field
+
+MODEL_NAME = "qwen2.5:3b"
+# None scores every prioritized chunk. Set an int to cap the judge calls.
+MAX_CHUNKS_TO_SCORE = None
+TOP_N = 5
+
+llm = ChatOllama(model=MODEL_NAME, temperature=0.0)
+
+
+class DisclosureJudgment(BaseModel):
+    """Subjective quality score for one chunk, not a verified extraction."""
+
+    score: int = Field(ge=0, le=100, description="Usefulness as climate-disclosure evidence, from 0 to 100")
+    quality: str = Field(description="Exactly one of: strong, partial, weak, none")
+    explanation: str = Field(description="One or two sentences justifying the score")
+    evidence_quote: str = Field(
+        description="A short quote copied verbatim from the chunk, or an empty string",
+    )
+
+
+judge = llm.with_structured_output(DisclosureJudgment)
+
+
+def locate_report(name: str) -> Path:
+    path = PDF_DIR / name
+    if not path.exists():
+        raise SystemExit(f"{path} not found — run the earlier scripts first.")
+    return path
+
+
+def assess(row, extraction):
+    prompt = f"""You are scoring one chunk of a Form 10-K for how useful it is as climate-related disclosure evidence.
+
+Use the same categories as the extractor: climate risks, emissions, targets and goals, governance, financial-statement effects, and mitigation. Judge the chunk and the extracted items together. If the extraction is null or empty, judge the chunk text alone.
+
+score: an integer from 0 to 100.
+- 80-100: specific, material disclosure (a figure, a date, a named commitment, oversight, or a concrete action)
+- 40-79: clearly related, but generic, partial, or missing the detail that would make it citable
+- 1-39: only loosely related, or routine boilerplate
+- 0: no climate disclosure
+
+quality: exactly one of strong, partial, weak, none.
+explanation: one or two sentences justifying the score.
+evidence_quote: a short quote copied verbatim from the chunk that supports the score. If nothing in the chunk supports a disclosure, return an empty string. Never invent or paraphrase the quote.
+
+Do not raise the score just because a keyword appears. A keyword match is incidental.
 
 First-pass keyword hit: {row['keyword_hit']}
 Matched keywords: {", ".join(row["matched_keywords"]) or "none"}
@@ -126,4 +192,4 @@ def run():
 
 
 if __name__ == "__main__":
-  run()
+    run()
