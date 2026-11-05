@@ -21,7 +21,7 @@ from langchain.chat_models import init_chat_model
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_tavily import TavilySearch
-from langsmith import traceable
+from langsmith import Client, traceable
 
 chroma_path = script_dir / "chroma"
 
