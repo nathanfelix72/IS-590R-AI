@@ -1,4 +1,4 @@
-# Lab: Debate Pattern — Build vs. Buy (with live web search)
+# Lab: Debate Pattern — Build vs. Buy (with live web search + company RAG)
 
 IS 590R — AI and Agentic Systems
 
@@ -22,6 +22,11 @@ arguing purely from the model's static training data. The moderator stays
 a plain model call — it's judging arguments already made, not researching
 new ones.
 
+Each turn also **always retrieves** relevant chunks from a local company
+brief (Lab 2–style Chroma RAG) and injects them into the prompt so
+arguments are grounded in your company's process, integrations, IT
+constraints, and budget — not generic CRM lore.
+
 ## Setup
 
 1. Sign up for a free [Tavily](https://tavily.com) API key.
@@ -33,6 +38,32 @@ new ones.
    ```
    pip install -U langchain-tavily
    ```
+4. Put your company document in `company_brief.md` (a placeholder is
+   already there — replace it when you have the real brief).
+5. Embed the brief into Chroma (re-run whenever you change the brief):
+   ```
+   python embedCompanyContext.py
+   ```
+6. Run the debate:
+   ```
+   python debateMAS.py
+   ```
+
+## LangSmith tracing
+
+LangChain / LangGraph auto-trace once these are in `.env` (no `export` prefix):
+
+```
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_API_KEY=lsv2_pt_...
+LANGSMITH_PROJECT=ai-class-lab-3
+```
+
+`debateMAS.py` loads that `.env` **before** LangChain imports (same pattern as
+lab 3). The root run is named `run_debate`; RAG calls show up as
+`retrieve_company_context`. After a run, check the project in
+[smith.langchain.com](https://smith.langchain.com).
 
 ## What you're practicing
 

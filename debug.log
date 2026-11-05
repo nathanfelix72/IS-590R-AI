@@ -1,0 +1,6 @@
+[3926-11-05/ 08:29:19.026:INFO:selfupdate_helper_win.cc(48)] Update : No update found
+[3926-11-05/ 08:30:17.413:INFO:selfupdate_helper_win.cc(91)] Current user isNon-Admin
+[3926-11-05/ 08:30:17.425:INFO:selfupdate_helper_win.cc(175)] Self Update Task Started Event Handle= 00000000000003C4
+[3926-11-05/ 08:30:17.425:INFO:selfupdate_helper_win.cc(308)] Triggering Application Event hEventLog = 000001A6CC2B0840
+[3926-11-05/ 08:30:17.515:INFO:selfupdate_helper_win.cc(329)] RunSelfUpdateTask: foundTask = 1 succeded = 1
+[3926-11-05/ 08:30:17.515:INFO:selfupdate_helper_win.cc(94)] Launched Self update task

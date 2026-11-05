@@ -9,7 +9,7 @@ load_dotenv()
 script_dir = Path(__file__).parent
 chroma_path = script_dir / "chroma"
 
-llm = ChatOllama(model="llama3", temperature=0.4, num_gpu=0)
+llm = ChatOllama(model="llama3", temperature=0.4)
 
 vectorstore = Chroma(
     collection_name="musicReviews",

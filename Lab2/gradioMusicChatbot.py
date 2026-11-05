@@ -104,8 +104,8 @@ GENRE_ALIASES = {
     "world": "Global",
 }
 
-llm = ChatOllama(model="llama3", temperature=0.4, num_gpu=0)
-filter_llm = ChatOllama(model="llama3", temperature=0, num_gpu=0, format="json")
+llm = ChatOllama(model="llama3", temperature=0.4)
+filter_llm = ChatOllama(model="llama3", temperature=0, format="json")
 
 vectorstore = Chroma(
     collection_name="musicReviews",
