@@ -1,7 +1,5 @@
 # Halcyon Health Data: CRM Decision Meetings
 
-*Fictional meeting transcripts: build vs. buy*
-
 ## Company context (invented)
 
 Halcyon sells a clinical data analytics and care-coordination platform to about 70 hospital systems and clinics across the Southeast and Mid-Atlantic. It has 210 employees, about $48M in revenue, and is headquartered in Raleigh. Its "CRM" is a patchwork of shared spreadsheets, an aging contacts database, and a notes tool that nobody officially approved. Because Halcyon handles protected health information (PHI) for its customers, its contracts are full of Business Associate Agreements, subprocessor approval clauses, and US-only data residency requirements. Eighteen months ago a sales rep pasted a client's data-sharing summary into a free AI notes app. Compliance caught it within a week and nothing leaked, but nobody has forgotten it.
