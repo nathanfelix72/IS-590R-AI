@@ -10,7 +10,7 @@ from langchain_core.tools import tool
 
 load_dotenv()
 
-model = init_chat_model("ollama:qwen3") #anthropic:claude-haiku-4-5
+model = init_chat_model("ollama:qwen2.5:7b") #anthropic:claude-haiku-4-5
 
 # US-style phone numbers: 555-201-9988, 555.201.9988, 5552019988, etc.
 PHONE_PATTERN = r"\b\d{3}[-.\s]?\d{3}[-.\s]?\d{4}\b"
