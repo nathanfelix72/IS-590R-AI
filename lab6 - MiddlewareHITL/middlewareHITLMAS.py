@@ -1,4 +1,22 @@
+"""
+Lab 6 — Middleware HITL support workflow (CLI entrypoint).
+
+Dashboard + Slack approvals:
+  uvicorn app:app --reload --port 8000
+"""
+
+from __future__ import annotations
+
+import os
+from pathlib import Path
+
 from dotenv import load_dotenv
+
+# Load before LangChain / LangSmith imports. LangSmith caches LANGSMITH_* on
+# first read, so dotenv must win before any tracer checks the environment.
+LAB_DIR = Path(__file__).resolve().parent
+load_dotenv(LAB_DIR / ".env")
+
 from typing_extensions import TypedDict
 from langgraph.graph import END, START, StateGraph
 from langgraph.types import Command
@@ -8,9 +26,7 @@ from langchain.agents.middleware import PIIMiddleware, HumanInTheLoopMiddleware
 from langchain.chat_models import init_chat_model
 from langchain_core.tools import tool
 
-load_dotenv()
-
-model = init_chat_model("ollama:qwen2.5:7b") #anthropic:claude-haiku-4-5
+model = init_chat_model("ollama:qwen2.5:7b")  # anthropic:claude-haiku-4-5
 
 # US-style phone numbers: 555-201-9988, 555.201.9988, 5552019988, etc.
 PHONE_PATTERN = r"\b\d{3}[-.\s]?\d{3}[-.\s]?\d{4}\b"
@@ -118,12 +134,12 @@ graph.add_conditional_edges(
 )
 graph.add_edge("draft_refund_action", END)
 support_graph = graph.compile(checkpointer=InMemorySaver())
-#support_graph.get_graph().draw_mermaid_png(output_file_path="support_workflow.png")
+# support_graph.get_graph().draw_mermaid_png(output_file_path="support_workflow.png")
 
 
 def run_with_approval(initial_state: dict, thread_id: str) -> dict:
     """
-    Invoke, check for a pause, collect a human decision, resume, 
+    Invoke, check for a pause, collect a human decision, resume,
     repeat until the graph actually finishes.
     """
     config = {"configurable": {"thread_id": thread_id}}
@@ -188,7 +204,19 @@ SAMPLE_MESSAGES = {
     ),
 }
 
+
+def langsmith_status() -> tuple[bool, str]:
+    tracing = os.getenv("LANGSMITH_TRACING", "").lower() in {"1", "true", "yes"}
+    project = os.getenv("LANGSMITH_PROJECT", "(default)")
+    return tracing, project
+
+
 if __name__ == "__main__":
+    tracing, project = langsmith_status()
+    print(f"LangSmith tracing={'on' if tracing else 'OFF'} project={project}")
+
+    # CLI path. For the live dashboard + Slack Approve/Edit/Reject UI:
+    #   uvicorn app:app --reload --port 8000
     i = 1
     for label, raw_message in SAMPLE_MESSAGES.items():
         print(f"\n{'=' * 70}\nRunning message {i}: {label}\n{'=' * 70}")

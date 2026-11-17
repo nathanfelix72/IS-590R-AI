@@ -1,0 +1,8 @@
+python-dotenv
+langchain
+langchain-core
+langgraph
+fastapi
+uvicorn
+slack-sdk
+httpx

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lab6 · Support HITL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="top">
+      <div>
+        <p class="eyebrow">Lab 6 · Middleware HITL</p>
+        <h1>Support workflow desk</h1>
+        <p class="lede">Watch each graph step live. Approve refunds here or in Slack.</p>
+      </div>
+      <div class="status-pill" id="connection">Connecting…</div>
+    </header>
+
+    <section class="controls">
+      <div class="control-block">
+        <label>Batch</label>
+        <div class="row wrap">
+          <button type="button" id="runAll" class="btn primary">
+            <span class="btn-label">Run all samples</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+          <button type="button" id="clearBoard" class="btn">Clear board</button>
+          <span class="hint" id="batchHint">Starts all 5 sample tickets at once</span>
+        </div>
+      </div>
+      <div class="control-block">
+        <label for="sampleSelect">Single sample</label>
+        <div class="row">
+          <select id="sampleSelect"></select>
+          <button type="button" id="runSample" class="btn">
+            <span class="btn-label">Run</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+      <div class="control-block wide">
+        <label for="customMessage">Custom message</label>
+        <textarea id="customMessage" rows="2" placeholder="Paste a support email…"></textarea>
+        <button type="button" id="runCustom" class="btn">
+          <span class="btn-label">Run custom</span>
+          <span class="spinner" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="meta" id="slackMeta">Slack: checking…</div>
+    </section>
+
+    <section class="summary-bar" id="summaryBar" hidden>
+      <span data-k="running"><strong>0</strong> running</span>
+      <span data-k="awaiting"><strong>0</strong> awaiting approval</span>
+      <span data-k="completed"><strong>0</strong> completed</span>
+      <span data-k="error"><strong>0</strong> errors</span>
+    </section>
+
+    <section class="table-wrap">
+      <table class="progress-table" id="progressTable">
+        <thead>
+          <tr>
+            <th>Ticket</th>
+            <th>Status</th>
+            <th>Sanitize</th>
+            <th>Triage</th>
+            <th>Refund HITL</th>
+            <th>Category</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr class="empty-row" id="emptyRow">
+            <td colspan="7">No tickets yet. Run all samples or pick one above.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="detail" id="detail" hidden>
+      <div class="detail-head">
+        <div>
+          <p class="eyebrow">Selected ticket</p>
+          <h2 id="detailTitle">—</h2>
+        </div>
+        <button type="button" class="btn" id="closeDetail">Close</button>
+      </div>
+      <div class="detail-status" id="detailStatus"></div>
+      <div class="panel" id="detailDecisionWrap" hidden>
+        <h3>Decision</h3>
+        <p id="detailDecision">—</p>
+      </div>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>Redacted summary</h3>
+          <p id="detailSummary">—</p>
+        </div>
+        <div class="panel">
+          <h3>Refund outcome</h3>
+          <p id="detailOutcome">—</p>
+        </div>
+      </div>
+      <div class="panel" id="detailPendingWrap" hidden>
+        <h3>Pending tool call</h3>
+        <pre id="detailPending"></pre>
+        <div class="actions" id="detailActions"></div>
+      </div>
+      <div class="panel" id="detailErrorWrap" hidden>
+        <h3>Error</h3>
+        <p id="detailError"></p>
+      </div>
+      <div class="timeline">
+        <h3>Event log</h3>
+        <ul id="detailTimeline"></ul>
+      </div>
+    </section>
+  </div>
+
+  <dialog id="editDialog">
+    <form method="dialog" id="editForm">
+      <h3>Edit refund amount</h3>
+      <input id="editAmount" name="amount" required placeholder="$49.99" />
+      <div class="dialog-actions">
+        <button value="cancel" class="btn">Cancel</button>
+        <button value="confirm" class="btn primary">Submit edit</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="rejectDialog">
+    <form method="dialog" id="rejectForm">
+      <h3>Reject refund</h3>
+      <textarea id="rejectReason" required placeholder="Reason for rejection"></textarea>
+      <div class="dialog-actions">
+        <button value="cancel" class="btn">Cancel</button>
+        <button value="confirm" class="btn danger">Reject</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
